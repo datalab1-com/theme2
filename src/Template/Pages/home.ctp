@@ -31,7 +31,37 @@
 </div>
 
 <!--------------------------------------------------------------------------------------->
-<!-- SECTION: Welcome -->
+<!-- SECTION: 0 - thin row at the top for the tech logos -->
+<!--------------------------------------------------------------------------------------->
+<section id="techLogos" class="">
+	<div class="container">	
+		<div class="row text-center">			
+		
+			<div class="col-md-2 col-sm-4 col-xs-4">
+				<img src="/img/theme1/wordpress.png" />
+			</div>
+			<div class="col-md-2 col-sm-4 col-xs-4">
+				<img src="/img/theme1/joomla.png" />
+			</div>
+			<div class="col-md-2 col-sm-4 col-xs-4">
+				<img src="/img/theme1/drupal.png" />
+			</div>
+			<div class="col-md-2 col-sm-4 col-xs-4">
+				<img src="/img/theme1/cpanel.png" />
+			</div>
+			<div class="col-md-2 col-sm-4 col-xs-4">
+				<img src="/img/theme1/magento.png" />
+			</div>
+			<div class="col-md-2 col-sm-4 col-xs-4">
+				<img src="/img/theme1/concrete5.png" />
+			</div>
+				
+		</div>
+	</div>
+</div>
+
+<!--------------------------------------------------------------------------------------->
+<!-- SECTION: 1 -->
 <!--------------------------------------------------------------------------------------->
 
 <section id="" class="sectionWhite sectionWhitePattern">
@@ -65,35 +95,35 @@
 
 					<div class="col-md-4 col-sm-6">
 						<div class="steps step2">
-							<h3><span class="glyphicon glyphicon-user glyphspace"></span>Floating Box</h3>
+							<h3><span class="glyphicon glyphicon-envelope glyphspace"></span>Floating Box</h3>
 							This is the text that is shown in the responsive floating box with three columns
 						</div>
 					</div>
 
 					<div class="col-md-4 col-sm-6">
 						<div class="steps step3">
-							<h3><span class="glyphicon glyphicon-user glyphspace"></span>Floating Box</h3>
+							<h3><span class="glyphicon glyphicon-wrench glyphspace"></span>Floating Box</h3>
 							This is the text that is shown in the responsive floating box with three columns
 						</div>
 					</div>
 
 					<div class="col-md-4 col-sm-6">
 						<div class="steps step4">
-							<h3><span class="glyphicon glyphicon-user glyphspace"></span>Floating Box</h3>
+							<h3><span class="glyphicon glyphicon-shopping-cart glyphspace"></span>Floating Box</h3>
 							This is the text that is shown in the responsive floating box with three columns
 						</div>
 					</div>
 
 					<div class="col-md-4 col-sm-6">
 						<div class="steps step5">
-							<h3><span class="glyphicon glyphicon-user glyphspace"></span>Floating Box</h3>
+							<h3><span class="glyphicon glyphicon-pencil glyphspace"></span>Floating Box</h3>
 							This is the text that is shown in the responsive floating box with three columns
 						</div>
 					</div>
 
 					<div class="col-md-4 col-sm-6">
 						<div class="steps step6">
-							<h3><span class="glyphicon glyphicon-user glyphspace"></span>Floating Box</h3>
+							<h3><span class="glyphicon glyphicon-briefcase glyphspace"></span>Floating Box</h3>
 							This is the text that is shown in the responsive floating box with three columns
 						</div>
 					</div>

@@ -106,86 +106,17 @@ $cakeDescription = 'Datalab Themes';
     <script src="/js/ie10-viewport-bug-workaround.js"></script>
 	
 	<script>
-		
-		var slider = 1;
-		var slides = 3;
-		var slideTime = 10000;
-		var fadeTime = 800;
-		var timer = null;
-		
+				
 		$(document).ready(function(){		
-			//setMenuHeight();
-			clearInterval(timer);
-			timer = setInterval(fadeOut, slideTime);
 		});
 
 		$(window).resize(function(){
-			//setMenuHeight();
 		});
 				
 		$("#slider").click(function(){
-		
-			clearInterval(timer);
-			
-			slider++;
-			if (slider > slides)
-				slider = 1;
-				
-			$("#slider").css("background-image", "url('/img/theme1/slider" + slider + ".jpg')");			
-			$("#slider").show();
-		});
-				
-		function fadeOut()
-		{
-			slider++;
-			if (slider > slides)
-				slider = 1;
-			
-			$("#slider").fadeOut();	
-			
-			clearInterval(timer);
-			timer = setInterval(fadeIn, fadeTime);
-		}
-		
-		function fadeIn()
-		{
-			var f = "/img/theme1/slider" + slider + ".jpg";
-			var image = new Image();
-			
-			image.onload = function () {
-				$("#slider").css("background-image", "url(" + f + ")");
-				
-				$("#slider").fadeIn("slow");
-				
-				clearInterval(timer);
-				timer = setInterval(fadeOut, slideTime);
-			}
-			
-			image.onerror = function () {
-				alert("error loading: " + f);
-			}
-			
-			image.src = f;			
-		}
-		
-		// if navbar top is fixed, need to adjust page content when header logo contracts for xs devices
-		function setMenuHeight() {
-		
-			// first check if navbar top is 'fixed'
-			if ($(".navbar-fixed-top").css('position') == 'fixed')
-			{
-				// first check if header needs an adjustment
-				var h = $("#navMain").height();
-				var hMax = parseInt($(".headerHeightOffset").css('max-height'));
-
-				// change the page top to match header height
-				if (h != hMax)
-				{
-					$(".headerHeightOffset").css('height', h);
-				}
-			}
-		}		
 	
+		});
+
 	</script>
 	
   </body>

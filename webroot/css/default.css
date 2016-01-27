@@ -2,7 +2,7 @@
 /* navbar and slider */
 /*****************************************************************/
 
-@media (max-width: 992px) {
+@xmedia (max-width: 992px) {
     .navbar-header {
         float: none;
     }
@@ -39,6 +39,16 @@
     }
 
 }	
+
+#techLogos {
+	padding-bottom: 20px;
+}
+
+#techLogos img {
+	width: 100%;	/* all images must be same height and width for this to work */
+	max-width: 131px;
+	padding-top: 20px;
+}
 
 /* navbar overrides */
 

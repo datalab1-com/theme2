@@ -64,7 +64,7 @@
 <!-- SECTION: 1 -->
 <!--------------------------------------------------------------------------------------->
 
-<section id="" class="sectionWhite sectionWhitePattern">
+<section id="sectionFeatures" class="sectionGray">
 	<div class="container">	
 		<div class="text-center">			
 			
@@ -74,57 +74,67 @@
 				</form>
 			</div>				
 			
-			<h1 class="xfont-open-sans-300">
+			<h1 class="font-open-sans-300">
 				Lorem ipsum dolor sit amet
 			</h1>
 			
-			<h2 style="margin-bottom: 30px;" class="xfont-open-sans-300">
+			<h2 class="marginBottom30 font-open-sans-300">
 				Consectetur adipiscing elit:
 			</h2>
 			
 			<div class="clearfix">
 				
-				<div class="row">
+				<div class="row font-open-sans-400">
 				
-					<div class="col-md-4 col-sm-6">
-						<div class="steps step1">
-							<h3><span class="glyphicon glyphicon-user glyphspace"></span>Floating Box</h3>
-							This is the text that is shown in the responsive floating box with three columns
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="">
+							<div class="sectionImage sectionImageBlue"><span class="glyphicon glyphicon-lock"></span></div>
+							<h2>Secure</h2>
+							<ul>
+								<li>Very Secure</li>
+								<li>Unbreakable</li>
+								<li>Unstoppable</li>
+								<li>Incorregible</li>
+							</ul>
 						</div>
 					</div>
 
-					<div class="col-md-4 col-sm-6">
-						<div class="steps step2">
-							<h3><span class="glyphicon glyphicon-envelope glyphspace"></span>Floating Box</h3>
-							This is the text that is shown in the responsive floating box with three columns
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="">
+							<div class="sectionImage sectionImageBlue"><span class="glyphicon glyphicon-signal"></span></div>
+							<h2>Speed</h2>
+							<ul>
+								<li>Fast Loading</li>
+								<li>Fast Downloads</li>
+								<li>Even faster performance</li>
+								<li>Fastest in its class</li>
+							</ul>
 						</div>
 					</div>
 
-					<div class="col-md-4 col-sm-6">
-						<div class="steps step3">
-							<h3><span class="glyphicon glyphicon-wrench glyphspace"></span>Floating Box</h3>
-							This is the text that is shown in the responsive floating box with three columns
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="">
+							<div class="sectionImage sectionImageBlue"><span class="glyphicon glyphicon-user"></span></div>
+							<h2>Simple</h2>
+							<ul>
+								<li>Simple to use</li>
+								<li>Easy to understand</li>
+								<li>Simple to upgrade</li>
+								<li>Easy to explain</li>
+							</ul>
 						</div>
 					</div>
 
-					<div class="col-md-4 col-sm-6">
-						<div class="steps step4">
-							<h3><span class="glyphicon glyphicon-shopping-cart glyphspace"></span>Floating Box</h3>
-							This is the text that is shown in the responsive floating box with three columns
-						</div>
-					</div>
-
-					<div class="col-md-4 col-sm-6">
-						<div class="steps step5">
-							<h3><span class="glyphicon glyphicon-pencil glyphspace"></span>Floating Box</h3>
-							This is the text that is shown in the responsive floating box with three columns
-						</div>
-					</div>
-
-					<div class="col-md-4 col-sm-6">
-						<div class="steps step6">
-							<h3><span class="glyphicon glyphicon-briefcase glyphspace"></span>Floating Box</h3>
-							This is the text that is shown in the responsive floating box with three columns
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="">
+							<div class="sectionImage sectionImageBlue"><span class="glyphicon glyphicon-scale"></span></div>
+							<h2>Scalable</h2>
+							<ul>
+								<li>Scales up with your business</li>
+								<li>Easy to scale</li>
+								<li>Unmetered Scaling</li>
+								<li>Addional Capacity</li>
+							</ul>
 						</div>
 					</div>
 					
@@ -145,7 +155,6 @@
 
 	<div class="sectionHeader text-center">	
 
-		<div class="sectionImage"><span class="glyphicon glyphicon-user"></span></div>
 		<h1>Section 2 Title</h1>
 		
 	</div>
@@ -175,7 +184,6 @@
 
 	<div class="sectionHeader text-center">	
 	
-		<div class="sectionImage sectionImageBlue"><span class="sectionImageBlue glyphicon glyphicon-shopping-cart"></span></div>
 		<h1 class="sectionImageBlue">Section 3 Header</h1>
 
 	</div>
@@ -196,7 +204,6 @@
 
 	<div class="sectionHeader text-center">	
 	
-		<div class="sectionImage"><span class="glyphicon glyphicon-envelope"></span></div>
 		<h1>Section 4 Header</h1>
 	
 	</div>
@@ -216,7 +223,6 @@
 <div class="container">	
 
 	<div class="sectionHeader text-center">	
-		<div class="sectionImage sectionImageBlue"><span class="sectionImageBlue glyphicon glyphicon-wrench"></span></div>
 		<h1 class="sectionImageBlue">Section 5 Header</h1>
 	</div>
 
@@ -235,7 +241,6 @@
 <div class="container">	
 
 	<div class="sectionHeader text-center">	
-		<div class="sectionImage"><span class="glyphicon glyphicon-briefcase"></span></div>
 		<h1>Section 6 Header</h1>
 	</div>
 

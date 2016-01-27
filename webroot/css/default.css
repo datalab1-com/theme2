@@ -1,4 +1,20 @@
 /*****************************************************************/
+/* fast generic settings */
+/*****************************************************************/
+
+.textWhite {	color: white; }
+	
+.bgWhite { background-color: white; }
+.bgRed {	background-color: red; }
+.bgGreen { background-color: #70DC70; }
+.bgBlue { background-color: #286090; }
+	
+.marginBottom20 { margin-bottom: 20px; }
+.marginBottom30 { margin-bottom: 30px; }
+.marginBottom40 { margin-bottom: 40px; }
+.marginBottom50 { margin-bottom: 50px; }
+
+/*****************************************************************/
 /* navbar and slider */
 /*****************************************************************/
 
@@ -132,8 +148,13 @@
 		margin-bottom: 20px;
 	}
 	
-	.sectionYellow, .sectionBlue, .sectionWhite {
+	.sectionYellow, .sectionBlue, .sectionWhite, .sectionGray {
 		padding: 50px 0 40px 0;
+	}
+	
+	.sectionGray {
+		background-color: #F6F6F6;
+		color: #939393;
 	}
 	
 	.sectionYellow {
@@ -156,11 +177,19 @@
 		font-size: 55px; 
 		width: 100px; 
 		height: 100px; 
-		border: 3px solid white; 
+		border: 2px solid white; 
+		background-color: #E9F6FF;
 
 		border-radius: 50%;
 		-moz-border-radius: 50%;
 		-webkit-border-radius: 50%;
+	}
+	
+	.sectionImageWhite {
+		color: white;
+	}
+	a.sectionImageWhite:hover {
+		text-decoration: none;
 	}
 		
 	.sectionImageBlue {
@@ -171,16 +200,11 @@
 		text-decoration: none;
 	}
 	
-	.textWhite {
-		color: white;
-	}
-	
-	.sectionImageWhite {
-		color: white;
-	}
-	a.sectionImageWhite:hover {
-		text-decoration: none;
-	}
+	#sectionFeatures ul {
+		text-align: left;
+		font-size: 1.3em;
+		list-style-image: url('/img/theme1/check-blue.png');
+	}			
 	
 	.steps {
 		padding: 10px;
@@ -296,32 +320,6 @@
 		
 	.sectionHeader h1 {
 		margin-bottom: 30px;
-	}
-
-	.bgWhite {
-		background-color: white;
-	}
-	.bgRed {
-		background-color: red;
-	}
-	.bgGreen {
-		background-color: #70DC70;
-	}
-	.bgBlue {
-		background-color: #286090;
-	}
-	
-	.marginBottom20 {
-		margin-bottom: 20px;
-	}
-	.marginBottom30 {
-		margin-bottom: 30px;
-	}
-	.marginBottom40 {
-		margin-bottom: 40px;
-	}
-	.marginBottom50 {
-		margin-bottom: 50px;
 	}
 
 .headerHeightOffset {

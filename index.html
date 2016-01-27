@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<!--[if IE 8]>			<html class="ie ie8"> <![endif]-->
+<!--[if IE 9]>			<html class="ie ie9"> <![endif]-->
+<!--[if gt IE 9]><!-->	<html> <!--<![endif]-->
+	<head>
+		<meta charset="utf-8" />
+		<title>devspace.co</title>
+		<meta name="keywords" content="HTML5,CSS3,Template" />
+		<meta name="description" content="" />
+		<meta name="Author" content="Dorin Grigoras [www.sow.com]" />
+
+		<!-- mobile settings -->
+		<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
+		<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+
+		<!-- WEB FONTS : use %7C instead of | (pipe) -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400%7CRaleway:300,400,500,600,700%7CLato:300,400,400italic,600,700" rel="stylesheet" type="text/css" />
+
+		<!-- CORE CSS -->
+		<link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+		<!-- THEME CSS -->
+		<link href="assets/css/essentials.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/layout.css" rel="stylesheet" type="text/css" />
+
+		<!-- PAGE LEVEL SCRIPTS -->
+		<link href="assets/css/header-1.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/color_scheme/green.css" rel="stylesheet" type="text/css" id="color_scheme" />
+
+		<!-- REVOLUTION SLIDER -->
+		<link href="/assets/plugins/slider.revolution/css/extralayers.css" rel="stylesheet" type="text/css" />
+		<link href="/assets/plugins/slider.revolution/css/settings.css" rel="stylesheet" type="text/css" />
+		
+		<style>
+		
+		.tech {
+			float: left;
+			margin: 10px;
+		}
+		
+		.logos {
+			width: 200px;
+			text-align: center;
+			float: left;
+			margin: 10px;
+		}
+		
+		.logos img {
+			height: 100px;
+		}
+		
+		</style>
+	</head>
+
+	<!--
+		AVAILABLE BODY CLASSES:
+		
+		smoothscroll 			= create a browser smooth scroll
+		enable-animation		= enable WOW animations
+
+		bg-grey					= grey background
+		grain-grey				= grey grain background
+		grain-blue				= blue grain background
+		grain-green				= green grain background
+		grain-blue				= blue grain background
+		grain-orange			= orange grain background
+		grain-yellow			= yellow grain background
+		
+		boxed 					= boxed layout
+		pattern1 ... patern11	= pattern background
+		menu-vertical-hide		= hidden, open on click
+		
+		BACKGROUND IMAGE [together with .boxed class]
+		data-background="assets/images/boxed_background/1.jpg"
+	-->
+	<body class="smoothscroll enable-animation">
+
+		<!-- SLIDE TOP >
+		<div id="slidetop">
+
+			<div class="container">
+				
+				<div class="row">
+
+					<div class="col-md-4">
+						<h6><i class="icon-heart"></i> why devspace?</h6>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Ut enim massa, sodales tempor convallis et, iaculis ac massa. </p>
+					</div>
+
+					<div class="col-md-4">
+						<h6><i class="icon-attachment"></i> RECENTLY VISITED</h6>
+						<ul class="list-unstyled">
+							<li><a href="#"><i class="fa fa-angle-right"></i> Consectetur adipiscing elit amet</a></li>
+							<li><a href="#"><i class="fa fa-angle-right"></i> This is a very long text, very very very very very very very very very very very very </a></li>
+							<li><a href="#"><i class="fa fa-angle-right"></i> Lorem ipsum dolor sit amet</a></li>
+							<li><a href="#"><i class="fa fa-angle-right"></i> Dolor sit amet,consectetur adipiscing elit amet</a></li>
+							<li><a href="#"><i class="fa fa-angle-right"></i> Consectetur adipiscing elit amet,consectetur adipiscing elit</a></li>
+						</ul>
+					</div>
+
+					<div class="col-md-4">
+						<h6><i class="icon-envelope"></i> CONTACT INFO</h6>
+						<ul class="list-unstyled">
+							<li><b>Address:</b> PO Box 21132, Here Weare St, <br /> Melbourne, Vivas 2355 Australia</li>
+							<li><b>Phone:</b> 1-800-565-2390</li>
+							<li><b>Email:</b> <a href="mailto:support@yourname.com">support@yourname.com</a></li>
+						</ul>
+					</div>
+
+				</div>
+
+			</div>
+
+			<a class="slidetop-toggle" href="#"></a>
+
+		</div>
+		<!-- /SLIDE TOP -->
+
+
+		<!-- wrapper -->
+		<div id="wrapper">
+
+			<!-- 
+				AVAILABLE HEADER CLASSES
+
+				Default nav height: 96px
+				.header-md 		= 70px nav height
+				.header-sm 		= 60px nav height
+
+				.noborder 		= remove bottom border (only with transparent use)
+				.transparent	= transparent header
+				.translucent	= translucent header
+				.sticky			= sticky header
+				.static			= static header
+				.dark			= dark header
+				.bottom			= header on bottom
+				
+				shadow-before-1 = shadow 1 header top
+				shadow-after-1 	= shadow 1 header bottom
+				shadow-before-2 = shadow 2 header top
+				shadow-after-2 	= shadow 2 header bottom
+				shadow-before-3 = shadow 3 header top
+				shadow-after-3 	= shadow 3 header bottom
+
+				.clearfix		= required for mobile menu, do not remove!
+
+				Example Usage:  class="clearfix sticky header-sm transparent noborder"
+			-->
+			<div id="header" class="sticky transparent clearfix">
+
+				<!-- TOP NAV -->
+				<header id="topNav">
+					<div class="container">
+
+						<!-- Mobile Menu Button -->
+						<button class="btn btn-mobile" data-toggle="collapse" data-target=".nav-main-collapse">
+							<i class="fa fa-bars"></i>
+						</button>
+
+						<!-- BUTTONS -->
+						<ul class="pull-right nav nav-pills nav-second-main">
+
+							<!-- SEARCH >
+							<li class="search">
+								<a href="javascript:;">
+									<i class="fa fa-search"></i>
+								</a>
+								<div class="search-box">
+									<form action="page-search-result-1.html" method="get">
+										<div class="input-group">
+											<input type="text" name="src" placeholder="Search" class="form-control" />
+											<span class="input-group-btn">
+												<button class="btn btn-primary" type="submit">Search</button>
+											</span>
+										</div>
+									</form>
+								</div> 
+							</li>
+							< /SEARCH -->
+
+							<!-- QUICK SHOP CART >
+							<li class="quick-cart">
+								<a href="#">
+									<span class="badge badge-aqua btn-xs badge-corner">2</span>
+									<i class="fa fa-shopping-cart"></i> 
+								</a>
+								<div class="quick-cart-box">
+									<h4>Shop Cart</h4>
+
+									<div class="quick-cart-wrapper">
+
+										<a href="#">
+											<img src="assets/images/demo/people/300x300/4-min.jpg" width="45" height="45" alt="" />
+											<h6><span>2x</span> RED BAG WITH HUGE POCKETS</h6>
+											<small>$37.21</small>
+										</a>
+
+										<a href="#">
+											<img src="assets/images/demo/people/300x300/5-min.jpg" width="45" height="45" alt="" />
+											<h6><span>2x</span> THIS IS A VERY LONG TEXT AND WILL BE TRUNCATED</h6>
+											<small>$17.18</small>
+										</a>
+
+									</div>
+
+									< quick cart footer >
+									<div class="quick-cart-footer clearfix">
+										<a href="shop-cart.html" class="btn btn-primary btn-xs pull-right">VIEW CART</a>
+										<span class="pull-left"><strong>TOTAL:</strong> $54.39</span>
+									</div>
+									<!-- /quick cart footer >
+
+								</div>
+							</li>
+							</QUICK SHOP CART -->
+
+						</ul>
+						<!-- /BUTTONS -->
+
+
+						<!-- Logo -->
+						<a class="logo pull-left" href="index.html">
+							<img src="assets/images/logo_light.png" alt="" /> <!-- light logo -->
+							<img src="assets/images/logo_dark.png" alt="" /> <!-- dark logo -->
+						</a>
+
+						<!-- 
+							Top Nav 
+							
+							AVAILABLE CLASSES:
+							submenu-dark = dark sub menu
+						-->
+						<div class="navbar-collapse pull-right nav-main-collapse collapse submenu-dark">
+							<nav class="nav-main">
+
+								<!--
+									NOTE
+									
+									For a regular link, remove "dropdown" class from LI tag and "dropdown-toggle" class from the href.
+									Direct Link Example: 
+
+									<li>
+										<a href="#">HOME</a>
+									</li>
+								-->
+								<ul id="topMain" class="nav nav-pills nav-main">
+									<li class="dropdown"><!-- HOME -->
+										<a class="" href="#">
+											HOME
+										</a>
+									</li>
+									<li class="dropdown"><!-- SERVICES -->
+										<a class="" href="#services">
+											SERVICES
+										</a>
+									</li>
+									<li class="dropdown"><!-- PORTFOLIO -->
+										<a class="" href="#technologies">
+											TECHNOLOGIES
+										</a>
+									</li>
+									<li class="dropdown mega-menu"><!-- ABOUT -->
+										<a class="" href="#footer">
+											CONTACT
+										</a>
+									</li>
+								</ul>
+
+							</nav>
+						</div>
+
+					</div>
+				</header>
+				<!-- /Top Nav -->
+
+			</div>
+
+
+
+			<!-- REVOLUTION SLIDER -->
+			<section id="slider" class="fullwidthbanner-container roundedcorners">
+				<!--
+					Navigation Styles:
+					
+						data-navigationStyle="" theme default navigation
+						
+						data-navigationStyle="preview1"
+						data-navigationStyle="preview2"
+						data-navigationStyle="preview3"
+						data-navigationStyle="preview4"
+						
+					Bottom Shadows
+						data-shadow="1"
+						data-shadow="2"
+						data-shadow="3"
+						
+					Slider Height (do not use on fullscreen mode)
+						data-height="300"
+						data-height="350"
+						data-height="400"
+						data-height="450"
+						data-height="500"
+						data-height="550"
+						data-height="600"
+						data-height="650"
+						data-height="700"
+						data-height="750"
+						data-height="800"
+				-->
+				<div class="fullscreenbanner" data-navigationStyle="">
+					<ul class="hide">
+
+						<!-- SLIDE1  -->
+						<li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-saveperformance="off" data-title="Slide 1" data-thumb="assets/images/demo/150x99/slide1.jpg">
+
+							<img src="assets/images/1x1.png" data-lazyload="assets/images/demo/1200x800/slide1.jpg" alt="" data-bgfit="cover" data-bgposition="center bottom" data-bgrepeat="no-repeat" />
+
+							<div class="overlay dark-4"><!-- dark overlay [1 to 9 opacity] --></div>
+
+							<div class="tp-caption customin ltl tp-resizeme text_white"
+								data-x="center"
+								data-y="180"
+								data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+								data-speed="800"
+								data-start="1000"
+								data-easing="easeOutQuad"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.01"
+								data-endelementdelay="0.1"
+								data-endspeed="1000"
+								data-endeasing="Power4.easeIn" style="z-index: 10;">
+								<span class="weight-300">WEB DEVELOPMENT / PROJECT MANAGEMENT / PROTOTYPES</span>
+							</div>
+
+							<div class="tp-caption customin ltl tp-resizeme large_bold_white"
+								data-x="center"
+								data-y="230"
+								data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+								data-speed="800"
+								data-start="1200"
+								data-easing="easeOutQuad"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.01"
+								data-endelementdelay="0.1"
+								data-endspeed="1000"
+								data-endeasing="Power4.easeIn" style="z-index: 10;">
+								welcome to devspace
+							</div>
+
+							<div class="tp-caption customin ltl tp-resizeme small_light_white"
+								data-x="center"
+								data-y="350"
+								data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+								data-speed="800"
+								data-start="1400"
+								data-easing="easeOutQuad"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.01"
+								data-endelementdelay="0.1"
+								data-endspeed="1000"
+								data-endeasing="Power4.easeIn" style="z-index: 10; width: 750px; max-width: 750px; white-space: normal; text-align:center;">
+								We specialize in implementing your vision.
+							</div>
+
+							<div class="tp-caption customin ltl tp-resizeme"
+								data-x="center"
+								data-y="438"
+								data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+								data-speed="800"
+								data-start="1550"
+								data-easing="easeOutQuad"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.01"
+								data-endelementdelay="0.1"
+								data-endspeed="1000"
+								data-endeasing="Power4.easeIn" style="z-index: 10;">
+								<a href="#purchase" class="btn btn-default btn-lg">
+									<span>GET STARTED</span> 
+								</a>
+							</div>
+
+						</li>
+
+						
+						<!-- SLIDE2  -->
+						<li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-saveperformance="off" data-title="Slide 2" data-thumb="assets/images/demo/150x99/slide2.jpg">
+
+							<img src="assets/images/1x1.png" data-lazyload="assets/images/demo/1200x800/slide2.jpg" alt="" data-bgfit="cover" data-bgposition="center bottom" data-bgrepeat="no-repeat" />
+
+							<div class="overlay dark-4"><!-- dark overlay [1 to 9 opacity] --></div>
+
+							<div class="tp-caption customin ltl tp-resizeme text_white"
+								data-x="center"
+								data-y="180"
+								data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+								data-speed="800"
+								data-start="1000"
+								data-easing="easeOutQuad"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.01"
+								data-endelementdelay="0.1"
+								data-endspeed="1000"
+								data-endeasing="Power4.easeIn" style="z-index: 10;">
+								<span class="weight-300">Are you ready for mobile?</span>
+							</div>
+
+							<div class="tp-caption customin ltl tp-resizeme large_bold_white"
+								data-x="center"
+								data-y="230"
+								data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+								data-speed="800"
+								data-start="1200"
+								data-easing="easeOutQuad"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.01"
+								data-endelementdelay="0.1"
+								data-endspeed="1000"
+								data-endeasing="Power4.easeIn" style="z-index: 10;">
+								mobile first web design
+							</div>
+
+							<div class="tp-caption customin ltl tp-resizeme small_light_white"
+								data-x="center"
+								data-y="350"
+								data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+								data-speed="800"
+								data-start="1400"
+								data-easing="easeOutQuad"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.01"
+								data-endelementdelay="0.1"
+								data-endspeed="1000"
+								data-endeasing="Power4.easeIn" style="z-index: 10; width: 750px; max-width: 750px; white-space: normal; text-align:center;">
+								More than 50% of all website visitors now come from mobile devices.
+							</div>
+
+							<div class="tp-caption customin ltl tp-resizeme"
+								data-x="center"
+								data-y="438"
+								data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+								data-speed="800"
+								data-start="1550"
+								data-easing="easeOutQuad"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.01"
+								data-endelementdelay="0.1"
+								data-endspeed="1000"
+								data-endeasing="Power4.easeIn" style="z-index: 10;">
+								<a href="#purchase" class="btn btn-default btn-lg">
+									<span>GET STARTED</span> 
+								</a>
+							</div>
+
+						</li>
+
+						<!-- SLIDE3  -->
+						<li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-saveperformance="off" data-title="Slide 3" data-thumb="assets/images/demo/150x99/slide3.jpg">
+
+							<img src="assets/images/1x1.png" data-lazyload="assets/images/demo/1200x800/slide3.jpg" alt="" data-bgfit="cover" data-bgposition="center bottom" data-bgrepeat="no-repeat" />
+
+							<div class="overlay dark-4"><!-- dark overlay [1 to 9 opacity] --></div>
+
+							<div class="tp-caption customin ltl tp-resizeme text_white"
+								data-x="center"
+								data-y="180"
+								data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+								data-speed="800"
+								data-start="1000"
+								data-easing="easeOutQuad"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.01"
+								data-endelementdelay="0.1"
+								data-endspeed="1000"
+								data-endeasing="Power4.easeIn" style="z-index: 10;">
+								<span class="weight-300"></span>
+							</div>
+
+							<div class="tp-caption customin ltl tp-resizeme large_bold_white"
+								data-x="center"
+								data-y="230"
+								data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+								data-speed="800"
+								data-start="1200"
+								data-easing="easeOutQuad"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.01"
+								data-endelementdelay="0.1"
+								data-endspeed="1000"
+								data-endeasing="Power4.easeIn" style="z-index: 10;">
+								expert project management
+							</div>
+
+							<div class="tp-caption customin ltl tp-resizeme small_light_white"
+								data-x="center"
+								data-y="350"
+								data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+								data-speed="800"
+								data-start="1400"
+								data-easing="easeOutQuad"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.01"
+								data-endelementdelay="0.1"
+								data-endspeed="1000"
+								data-endeasing="Power4.easeIn" style="z-index: 10; width: 750px; max-width: 750px; white-space: normal; text-align:center;">
+								Project Management system designed to maximize chances of a successful, on-time launch.
+							</div>
+
+							<div class="tp-caption customin ltl tp-resizeme"
+								data-x="center"
+								data-y="438"
+								data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+								data-speed="800"
+								data-start="1550"
+								data-easing="easeOutQuad"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.01"
+								data-endelementdelay="0.1"
+								data-endspeed="1000"
+								data-endeasing="Power4.easeIn" style="z-index: 10;">
+								<a href="#purchase" class="btn btn-default btn-lg">
+									<span>GET STARTED</span> 
+								</a>
+							</div>
+
+						</li>
+
+						<!-- SLIDE4  -->
+						<li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-saveperformance="off" data-title="Slide 4" data-thumb="assets/images/demo/150x99/slide4.jpg">
+
+							<img src="assets/images/1x1.png" data-lazyload="assets/images/demo/1200x800/slide4.jpg" alt="" data-bgfit="cover" data-bgposition="center bottom" data-bgrepeat="no-repeat" />
+
+							<div class="overlay dark-4"><!-- dark overlay [1 to 9 opacity] --></div>
+
+							<div class="tp-caption customin ltl tp-resizeme text_white"
+								data-x="center"
+								data-y="180"
+								data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+								data-speed="800"
+								data-start="1000"
+								data-easing="easeOutQuad"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.01"
+								data-endelementdelay="0.1"
+								data-endspeed="1000"
+								data-endeasing="Power4.easeIn" style="z-index: 10;">
+								<span class="weight-300"></span>
+							</div>
+
+							<div class="tp-caption customin ltl tp-resizeme large_bold_white"
+								data-x="center"
+								data-y="230"
+								data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+								data-speed="800"
+								data-start="1200"
+								data-easing="easeOutQuad"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.01"
+								data-endelementdelay="0.1"
+								data-endspeed="1000"
+								data-endeasing="Power4.easeIn" style="z-index: 10;">
+								rapid prototyping
+							</div>
+
+							<div class="tp-caption customin ltl tp-resizeme small_light_white"
+								data-x="center"
+								data-y="350"
+								data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+								data-speed="800"
+								data-start="1400"
+								data-easing="easeOutQuad"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.01"
+								data-endelementdelay="0.1"
+								data-endspeed="1000"
+								data-endeasing="Power4.easeIn" style="z-index: 10; width: 750px; max-width: 750px; white-space: normal; text-align:center;">
+								Prototyping is used to prove your concept and define your requirements.
+							</div>
+
+							<div class="tp-caption customin ltl tp-resizeme"
+								data-x="center"
+								data-y="438"
+								data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+								data-speed="800"
+								data-start="1550"
+								data-easing="easeOutQuad"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.01"
+								data-endelementdelay="0.1"
+								data-endspeed="1000"
+								data-endeasing="Power4.easeIn" style="z-index: 10;">
+								<a href="#purchase" class="btn btn-default btn-lg">
+									<span>GET STARTED</span> 
+								</a>
+							</div>
+
+						</li>						
+						
+						
+					</ul>
+				</div>
+			</section>
+			<!-- /REVOLUTION SLIDER -->
+
+
+
+			<!-- technologies -->
+			<section id="technologies" style="border: 0px">
+				<div class="container">
+
+					<div class="text-center">
+						<h1><span>technologies</span></h1>
+						<h2 class="col-sm-10 col-sm-offset-1 nomargin-bottom weight-400">We specialize in the most current application development tools and technologies, including the following...</h2>
+					</div>
+
+				</div>
+				<div class="container" style="text-align: center; margin-top: 50px;">
+
+					<div class="" style="width: 100%;">
+
+						<div class="logos">
+							<img src="img/linux.jpg"></img>
+						</div>
+						<div class="logos">
+							<img src="img/apache.jpg"></img>
+						</div>
+						<div class="logos">
+							<img src="img/mysql.png"></img>
+						</div>
+						<div class="logos">
+							<img src="/img/php.jpg"></img>
+						</div>
+						<div class="logos">
+							<img src="/img/javascript.png"></img>
+						</div>
+						<div class="logos">
+							<img src="/img/jquery.png"></img>
+						</div>
+						<div class="logos">
+							<img src="/img/bootstrap.jpg"></img>
+						</div>
+						<div class="logos">
+							<img src="/img/csharp.png"></img>
+						</div>
+						<div class="logos">
+							<img src="/img/cplusplus.jpg"></img>
+						</div>
+						<div class="logos">
+							<img src="/img/oracle.png"></img>
+						</div>
+
+					</div>
+
+				</div>
+			</section>
+			<!-- /technologies -->
+
+
+			<!-- services -->
+			<section id="services" style="background-color: #5BBC2E; color: white;">
+				<div class="container">
+
+					<div class="text-center" style="color: white;">
+						<h1><span style="color: white;">services</span></h1>
+					</div>
+					
+					<div class="tech">
+						<h2 style="color: white; margin-bottom: 20px;" class="weight-400">Frontend Website Design</h2>
+						<p style="font-size: 20px;">Devspace creates modern functional web applications for easy integration into your development pipeline. Our developers will work directly with designers to realize web designs into functional code, saving on time and effort often wasted when design and development are conducted in different locations or companies.
+</p>
+					</div>
+
+										<div class="tech">
+						<h2 style="color: white; margin-bottom: 20px;" class="weight-400">Backend Development</h2>
+						<p style="font-size: 20px;">Using the MEAN (Mongo /MySQL/ PostgreSQL, Express, Angular, Node) stack, Devspace will fully develop and test front-end and back-end production-ready code for your application.</p>
+					</div>
+
+					
+										<div class="tech">
+						<h2 style="color: white; margin-bottom: 20px;" class="weight-400">Creating Prototypes</h2>
+						<p style="font-size: 20px;">Understanding the value of product concepts is difficult without something tangible to evaluate. We create interactive prototypes to illustrate how a design will function, communicate, and feel. 
+</p>
+					</div>
+
+					
+										<div class="tech">
+						<h2 style="color: white; margin-bottom: 20px;" class="weight-400">Project Management</h2>
+						<p style="font-size: 20px;">Using time-proven methods, we carefully project, plan, organize and control resources to achieve goals and meet specific success criteria to get projects developed and deployed on time and on budget.</p>
+					</div>
+
+				</div>
+				<div class="container" style="text-align: center; margin-top: 50px;">
+
+
+				</div>
+			</section>
+			<!-- /Services -->
+
+
+			<!-- CALLOUT -->
+			<!--
+			<div class="alert alert-transparent bordered-bottom nomargin">
+				<div class="container">
+
+					<div class="row">
+
+						<div class="col-md-9 col-sm-12">
+							<h3>Call now at <span><strong>+800-565-2390</strong></span> and get 15% discount!</h3>
+							<p class="font-lato weight-300 size-20 nomargin-bottom">
+								We truly care about our users and our product.
+							</p>
+						</div>
+
+						
+						<div class="col-md-3 col-sm-12 text-right">
+							<a href="#purchase" rel="nofollow" target="_blank" class="btn btn-primary btn-lg">CONTACT US</a>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+			<!-- /CALLOUT >
+			-->
+
+
+
+			<!-- FOOTER -->
+			<footer id="footer">
+				<div class="container">
+
+					<div class="row">
+						
+						<div class="col-md-3">
+							<!-- Footer Logo -->
+							<img class="footer-logo" src="assets/images/logo-footer.png" alt="" />
+
+							<!-- Small Description -->
+							<p>CONTACT INFORMATION</p>
+
+							<!-- Contact Address -->
+							<address>
+								<ul class="list-unstyled">
+									<li class="footer-sprite address">
+										http://www.devspace.co<br>
+									</li>
+									<li class="footer-sprite phone">
+										Phone: +01 (405) 657-5080
+									</li>
+									<li class="footer-sprite email">
+										<a href="mailto:info@devspace.co">info@devspace.co</a>
+									</li>
+								</ul>
+							</address>
+							<!-- /Contact Address -->
+
+						</div>
+
+						<div class="col-md-3">
+
+							<!-- Latest Blog Post -->
+							<h4 class="letter-spacing-1">LATEST NEWS</h4>
+							<ul class="footer-posts list-unstyled">
+								<li>
+									<a href="#">Donec sed odio dui. Nulla vitae elit libero, a pharetra augue</a>
+									<small>29 June 2015</small>
+								</li>
+								<li>
+									<a href="#">Nullam id dolor id nibh ultricies</a>
+									<small>29 June 2015</small>
+								</li>
+								<li>
+									<a href="#">Duis mollis, est non commodo luctus</a>
+									<small>29 June 2015</small>
+								</li>
+							</ul>
+							<!-- /Latest Blog Post -->
+
+						</div>
+
+						<div class="col-md-2">
+
+							<!-- Links -->
+							<h4 class="letter-spacing-1">EXPLORE DEVSPACE</h4>
+							<ul class="footer-links list-unstyled">
+								<li><a href="/">Home</a></li>
+								<li><a href="#services">Services</a></li>
+								<li><a href="#technologies">Technologies</a></li>
+								<li><a href="mailto:info@devspace.co">Contact Us</a></li>
+							</ul>
+							<!-- /Links -->
+
+						</div>
+
+						<div class="col-md-4">
+
+							<!-- Newsletter Form -->
+							<h4 class="letter-spacing-1">REQUEST CONSULTATION</h4>
+							<p>Enter your email address and we will contact you.</p>
+
+							<form class="validate" action="/" method="post" data-success="Request sent, thank you!" data-toastr-position="bottom-right">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+									<input type="email" id="email" name="email" class="form-control required" placeholder="Enter your email address">
+									<span class="input-group-btn">
+										<button class="btn btn-success" type="submit">Send</button>
+									</span>
+								</div>
+							</form>
+							<!-- /Newsletter Form -->
+
+							<!-- Social Icons >
+							<div class="margin-top-20">
+								<a href="#" class="social-icon social-icon-border social-facebook pull-left" data-toggle="tooltip" data-placement="top" title="Facebook">
+
+									<i class="icon-facebook"></i>
+									<i class="icon-facebook"></i>
+								</a>
+
+								<a href="#" class="social-icon social-icon-border social-twitter pull-left" data-toggle="tooltip" data-placement="top" title="Twitter">
+									<i class="icon-twitter"></i>
+									<i class="icon-twitter"></i>
+								</a>
+
+								<a href="#" class="social-icon social-icon-border social-gplus pull-left" data-toggle="tooltip" data-placement="top" title="Google plus">
+									<i class="icon-gplus"></i>
+									<i class="icon-gplus"></i>
+								</a>
+
+								<a href="#" class="social-icon social-icon-border social-linkedin pull-left" data-toggle="tooltip" data-placement="top" title="Linkedin">
+									<i class="icon-linkedin"></i>
+									<i class="icon-linkedin"></i>
+								</a>
+
+								<a href="#" class="social-icon social-icon-border social-rss pull-left" data-toggle="tooltip" data-placement="top" title="Rss">
+									<i class="icon-rss"></i>
+									<i class="icon-rss"></i>
+								</a>
+					
+							</div>
+							<!-- /Social Icons -->
+
+						</div>
+
+					</div>
+
+				</div>
+
+				<div class="copyright">
+					<div class="container">
+						<!-- ul class="pull-right nomargin list-inline mobile-block">
+							<li><a href="#">Terms &amp; Conditions</a></li>
+							<li>&bull;</li>
+							<li><a href="#">Privacy</a></li>
+						</ul -->
+						&copy; All Rights Reserved, Devspace.co
+					</div>
+				</div>
+			</footer>
+			<!-- /FOOTER -->
+
+		</div>
+		<!-- /wrapper -->
+
+
+		<!-- SCROLL TO TOP -->
+		<a href="#" id="toTop"></a>
+
+
+		<!-- PRELOADER -->
+		<div id="preloader">
+			<div class="inner">
+				<span class="loader"></span>
+			</div>
+		</div><!-- /PRELOADER -->
+
+
+		<!-- JAVASCRIPT FILES -->
+		<script type="text/javascript">//var plugin_path = 'assets/plugins/';</script>
+		<script type="text/javascript">var plugin_path = '/js/';</script>
+		<script type="text/javascript" src="assets/plugins/jquery/jquery-2.1.4.min.js"></script>
+
+		<script type="text/javascript" src="assets/js/scripts.js"></script>
+		
+		<!-- STYLESWITCHER - REMOVE -->
+		<!-- sbw removed
+		<script async type="text/javascript" src="assets/plugins/styleswitcher/styleswitcher.js"></script>
+		sbw -->
+
+		<!-- REVOLUTION SLIDER -->
+		<script type="text/javascript" src="assets/plugins/slider.revolution/js/jquery.themepunch.tools.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/slider.revolution/js/jquery.themepunch.revolution.min.js"></script>
+		<script type="text/javascript" src="assets/js/view/demo.revolution_slider.js"></script>
+	</body>
+</html>

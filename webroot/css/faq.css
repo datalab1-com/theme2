@@ -1,0 +1,61 @@
+/*****************************************************************/
+/* faq */
+/*****************************************************************/
+
+.label-faq {
+	display: inline-block; 
+	background-color: #FFA500; 
+	line-height: 2; 
+	margin: 5px;
+	font-weight: bold;	
+	font-size: 20px; 
+}
+.label-faq a{
+	text-decoration: none;
+	color: white;
+}
+
+.label-faq-active{
+	text-decoration: none;
+	background-color: #79A22A;
+}
+.label-faq-active a{
+	color: white;
+}
+
+.badge-faq {
+	margin-left: 5px; 
+	font-size: auto; 
+	font-weight: bold; 
+	background: #E39403; 
+	color: white;
+}
+.badge-faq-active {
+	background: #A1C954; 
+}
+
+.faqclass ul {
+	margin-top: 10px;
+	list-style-type: none;
+	list-style: none;
+	padding-left: 0px;
+}
+
+ul.steps {  /* lines like: * This is the first list item line */
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.faqclass li.starBullet { /* lines like: * This is the first list item line */
+	margin: 5px 0;
+}
+
+.faqclass li.starBullet:before {
+	content: "\2605";
+	margin: 0 .5em;  
+}
+
+div.stepLine { /* lines like: "STEP 1: ..." */
+	margin: 10px 5px;
+}

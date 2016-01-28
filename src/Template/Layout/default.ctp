@@ -73,6 +73,7 @@ $cakeDescription = 'Datalab Themes';
 	<?= $this->Flash->render() ?>
 	
 	<?= $this->fetch('content') ?>
+	
 </div>
 		
 <!--------------------------------------------------------------------------------->			

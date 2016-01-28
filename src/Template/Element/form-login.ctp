@@ -6,10 +6,10 @@
 			<div class="form-group form-control-big">	
 				
 				<label for="email" class="control-label">Email:</label>
-				<?php echo $this->Form->input('email', array('label' => false, 'id' => 'email', 'class' => 'form-control formControlSpace')); ?>
+				<?php echo $this->Form->input('email', array('label' => false, 'id' => 'email', 'class' => 'form-control marginBottom10')); ?>
 
 				<label for="password" class="control-label">Password:</label>
-				<?php echo $this->Form->input('password', array('label' => false, 'id' => 'password', 'class' => 'form-control formControlSpace')); ?>
+				<?php echo $this->Form->input('password', array('label' => false, 'id' => 'password', 'class' => 'form-control marginBottom10')); ?>
 						
 			</div>
 			

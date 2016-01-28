@@ -9,12 +9,29 @@
 .bgGreen { background-color: #70DC70; }
 .bgBlue { background-color: #286090; }
 	
+.marginBottom10 { margin-bottom: 10px; }
 .marginBottom20 { margin-bottom: 20px; }
 .marginBottom30 { margin-bottom: 30px; }
 .marginBottom40 { margin-bottom: 40px; }
 .marginBottom50 { margin-bottom: 50px; }
 
+.marginTop10 { margin-top: 10px; }
+.marginTop20 { margin-top: 20px; }
+.marginTop30 { margin-top: 30px; }
+.marginTop40 { margin-top: 40px; }
+.marginTop50 { margin-top: 50px; }
+.marginTop100 { margin-top: 100px; }
+
 .letter-spacing-5 { letter-spacing: 5px; }
+
+.glyphspace { padding-right: 20px; }
+.glyphspace5 { padding-right: 5px; }
+.glyphspace10 { padding-right: 10px; }
+
+.glyphSide { font-size: 50px; padding: 10px 20px; float: left; }
+.glyphSideText { display: table; }
+
+.minHeight100 {	min-height: 100px; }
 
 /*****************************************************************/
 /* navbar and slider */
@@ -154,6 +171,7 @@
 		padding: 50px 0 40px 0;
 	}
 	
+	
 	.sectionGray {
 		background-color: #F6F6F6;
 		color: #939393;
@@ -206,7 +224,11 @@
 		text-align: left;
 		font-size: 1.3em;
 		list-style-image: url('/img/theme1/check-blue.png');
-	}			
+	}		
+
+	#sectionFeatures2 {
+		font-size: 1.2em;
+	}
 	
 	.steps {
 		padding: 10px;
@@ -235,52 +257,16 @@
 		background-color: lightSalmon;
 	}
 	
-	.glyphspace {
-		padding-right: 20px;
+	#sectionMap {
+		font-size: 1.2em;
+		background-color: #E9F6FF;
 	}
-	.glyphspace5 {
-		padding-right: 5px;
-	}
-	.glyphspace10 {
-		padding-right: 10px;
-	}	
-		
-	.sliderTextPanel {
-		margin-bottom: 20px;
-		display: inline-block;
-		background: rgba(0, 0, 0, 0.5);
-		border: gray 1px solid;
-		border-radius: 15px;
-		text-shadow:
-			-1px -1px 0 black,  
-			 1px -1px 0 black,
-			-1px  1px 0 black,
-			 1px  1px 0 black;	
-		
-	}	
-	.sliderText h1, .sliderText h2{
-		line-height: 1.2em;
-		padding-left: 20px;
-		padding-right: 20px;
-	}
-	
-	.sliderText h2 {
-		padding-top: 20px;
-		padding-bottom: 20px;
-	}
-		
+			
 	.logos img {
 		float: left;
 		max-width: 100px;
 	}
-	
-	.marginTop10 { margin-top: 10px; }
-	.marginTop20 { margin-top: 20px; }
-	.marginTop30 { margin-top: 30px; }
-	.marginTop40 { margin-top: 40px; }
-	.marginTop50 { margin-top: 50px; }
-	.marginTop100 { margin-top: 100px; }
-		
+			
 	.btn-lg {
 		font-size: 2em;
 	}
@@ -313,11 +299,9 @@
 		padding: 0 20px;
 	}
 	
-	.formControlSpace {
-		margin-bottom: 10px;
-	}
-	.formControlSpace20 {
-		margin-bottom: 20px;
+	form .controlHelp {
+		font-size: 90%;
+		font-style: italic;
 	}
 		
 	.sectionHeader h1 {
@@ -327,18 +311,6 @@
 .headerHeightOffset {
 	xheight: 72px;		/* this gets changed by js */
 	xmax-height: 72px;	/* used by js to reset after height gets changed by js */
-}
-
-.sliderText {
-	color: white;
-	padding-top: 100px;	
-}	
-
-.scrollUp {
-    z-index: 9999999999999;
-    position: absolute;
-    bottom: 3px;
-    right: 3px;
 }
 
 .font-open-sans-400 {
@@ -403,25 +375,7 @@ Media specific overrides go below here
 		max-height: 72px;	/ * used by js to reset after height gets changed by js * /
 	}
 */
-	
-	.sliderText {
-		padding-top: 20px;	
-	}	
-	
-	.sliderText h1, .sliderText h2{
-		line-height: 1.2em;
-		padding-left: 10px;
-		padding-right: 10px;
-	}	
-	
-	#slider {
-		min-height: 500px;
-	}
-	
-	#sliderWrapper {
-		min-height: 500px;
-	}
-	
+		
 	section h1 {
 		font-size: 1.7em;
 	}

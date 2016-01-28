@@ -2,7 +2,7 @@
 <div class="container">
 	
 	<div class="sectionHeader text-center">	
-		<h1 class="sectionImageBlue"><span class="sectionImageBlue glyphicon glyphicon-user"></span>&nbsp;Log-in</h1>
+		<h1 class="sectionImageBlue"><span class="sectionImageBlue glyphicon glyphicon-log-in"></span>&nbsp;Log-in</h1>
 	</div>	
 		
 	<?= $this->element('form-login') ?>

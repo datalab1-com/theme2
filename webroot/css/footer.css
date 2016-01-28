@@ -31,7 +31,8 @@
 }
 
 #footer ul li {
-	padding-bottom: 10px;
+	padding-bottom: 10px;	
+	list-style-type: none;
 }
 
 #footer form input {
@@ -51,13 +52,12 @@
 	color: #2A922A;
 }
 
-.col-md-6 {
-	padding-left: 0;
+.footerPanel {
+	padding: 10px 20px; 
+	margin-bottom: 10px;
 }
 
-.footer-box {
-	border: 1px solid #333; 
-	padding: 10px 20px; 
-	border-radius: 10px;
-	margin-bottom: 10px;
+.footerImage {
+	width: 100%;
+	max-width: 250px;
 }

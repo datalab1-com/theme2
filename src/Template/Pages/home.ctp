@@ -20,7 +20,7 @@
 		
 			<h2 id="" class="marginBottom40 font-open-sans-400" ><span class=""></span>Ready to do the call to action?</h2>
 						
-			<form action="#">
+			<form action="/users/register">
 				<button class="textWhite formControlSpace20 btn btn-submit btn-lg bgBlue"><span class="glyphicon glyphicon-hand-right"></span>&nbsp;Call To Action</button>
 			</form>
 			
@@ -165,7 +165,7 @@
 	
 	<div class="row text-center marginTop50">
 		<div class="header">
-			<form action="#">
+			<form action="/users/register">
 				<button class="textWhite formControlSpace20 btn btn-submit btn-lg bgGreen"><span class="glyphicon glyphicon-user"></span>&nbsp;Call to Action!</button>
 			</form>
 			
@@ -211,42 +211,6 @@
 	<h3>The sections have a bunch of h3 text.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
 
 	<div class="text-center marginTop30"><h3><a class="sectionImageWhite" href="#">Click Here for More Details</a></h3></div>
-	
-</div>
-</section>
-		
-<!--------------------------------------------------------------------------------------->
-<!-- SECTION: 5 -->
-<!--------------------------------------------------------------------------------------->
-
-<section class="sectionWhite">
-<div class="container">	
-
-	<div class="sectionHeader text-center">	
-		<h1 class="sectionImageBlue">Section 5 Header</h1>
-	</div>
-
-	<h3>The sections have a bunch of h3 text.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
-
-	<div class="text-center marginTop30"><h3><a class="sectionImageBlue" href="#">Click Here for More Details</a></h3></div>
-	
-</div>
-</section>
-		
-<!--------------------------------------------------------------------------------------->
-<!-- SECTION: 6 -->
-<!--------------------------------------------------------------------------------------->
-		
-<section class="sectionBlue">
-<div class="container">	
-
-	<div class="sectionHeader text-center">	
-		<h1>Section 6 Header</h1>
-	</div>
-
-	<h3>The sections have a bunch of h3 text.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
-
-	<div class="text-center marginTop30"><h3><a class="sectionImageWhite"  href="#">Click Here for More Details</a></h3></div>
 	
 </div>
 </section>

@@ -10,10 +10,10 @@
 <div id="header" class="header">
 	<div style="" class="container text-center">
 
-		<h1 class="marginBottom30 font-open-sans-400"><span>Slider Header 1 Big Message </span></h1>
+		<h1 class="marginBottom30 font-open-sans-400"><span>Big Header Message Text</span></h1>
 						
 		<div style="max-width: 700px; margin: auto;">
-			<h2 id="" class="font-open-sans-400" ><span class="">Slider Header 2 Message Longer Text Content Goes Here</span></h2>
+			<h2 id="" class="font-open-sans-400" ><span class="">Longer Header Text Content Goes Here</span></h2>
 		</div>
 
 		<div class="hidden-xs" style="max-width: 700px; margin: auto;">

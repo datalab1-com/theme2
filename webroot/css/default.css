@@ -225,6 +225,15 @@
 		font-size: 1.3em;
 		list-style-image: url('/img/theme1/check-blue.png');
 	}		
+	
+	/* needed to add space between the cols when they start stacking */
+	  #sectionFeatures .col-sm-6
+	, #sectionFeatures .col-xs-12 
+	, #sectionFeatures2 .col-sm-6 
+	, #sectionFeatures2 .col-xs-12 
+	{
+		margin-bottom: 40px;
+	}
 
 	#sectionFeatures2 {
 		font-size: 1.2em;

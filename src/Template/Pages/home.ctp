@@ -16,6 +16,7 @@
 			<h2 id="" class="font-open-sans-400" ><span class="">Longer Header Text Content Goes Here</span></h2>
 		</div>
 
+		<!-- for XS this part jumps down to section 1 -->
 		<div class="hidden-xs" style="max-width: 700px; margin: auto;">
 		
 			<h2 id="" class="marginBottom40 font-open-sans-400" ><span class=""></span>Ready to do the call to action?</h2>
@@ -25,7 +26,13 @@
 			</form>
 			
 		</div>				
-				
+
+		<!-- XS only after button jumps down -->
+		<div class="hidden-xl hidden-lg hidden-md hidden-sm" style="margin: auto;">
+			<h2 style="font-size: 1.8em; " class="font-open-sans-400" >(The Action button has jumped down to Section 1)</h2>
+		</div>
+
+		
 	</div>
 </div>
 </div>
@@ -86,7 +93,7 @@
 				
 				<div class="row font-open-sans-400">
 				
-					<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="col-md-3 col-sm-6">
 						<div class="">
 							<div class="sectionImage sectionImageBlue"><span class="glyphicon glyphicon-lock"></span></div>
 							<h2>Secure</h2>
@@ -99,7 +106,7 @@
 						</div>
 					</div>
 
-					<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="col-md-3 col-sm-6">
 						<div class="">
 							<div class="sectionImage sectionImageBlue"><span class="glyphicon glyphicon-signal"></span></div>
 							<h2>Speed</h2>
@@ -112,7 +119,7 @@
 						</div>
 					</div>
 
-					<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="col-md-3 col-sm-6">
 						<div class="">
 							<div class="sectionImage sectionImageBlue"><span class="glyphicon glyphicon-user"></span></div>
 							<h2>Simple</h2>
@@ -125,7 +132,7 @@
 						</div>
 					</div>
 
-					<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="col-md-3 col-sm-6">
 						<div class="">
 							<div class="sectionImage sectionImageBlue"><span class="glyphicon glyphicon-scale"></span></div>
 							<h2>Scalable</h2>
@@ -220,7 +227,7 @@
 			
 			<div class="clearfix font-open-sans-400">
 				
-				<div class="row marginBottom20">
+				<div class="row">
 				
 					<div class="col-sm-6 minHeight100">
 					
@@ -249,7 +256,7 @@
 
 				</div><!-- row -->			
 				
-				<div class="row marginBottom20">
+				<div class="row">
 
 					<div class="col-sm-6 minHeight100">
 

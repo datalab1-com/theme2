@@ -28,7 +28,7 @@
         </div>
 		
         <div id="navbar" class="collapse navbar-collapse">
-			<ul class="nav navbar-nav">
+			<ul class="nav navbar-nav navbar-right">
 		  		  
 				<li><a class="" href="/">HOME</a></li>	
 													
